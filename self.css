@@ -1,0 +1,61 @@
+.parent-container {
+  margin: 40px;
+}
+.header {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+span {
+  color: midnightblue;
+}
+.img1 {
+  width: 300px;
+  height: 200px;
+}
+.img2 {
+  width: 300px;
+  height: 200px;
+}
+.content {
+  display: flex;
+  gap: 10em;
+}
+.img1 {
+  float: right;
+}
+.first-img {
+  display: flex;
+  gap: 40px;
+}
+.second-img {
+  display: flex;
+  gap: 40px;
+}
+p {
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+.footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+  .header {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  .logo-r {
+    width: 100px;
+  }
+  .first-img {
+    display: block;
+  }
+  .second-img {
+    display: block;
+  }
+  .content {
+    display: block;
+  }
+}
